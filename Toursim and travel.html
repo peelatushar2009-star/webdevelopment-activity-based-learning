@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incredible India | Tourism</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#fdfbf5;color:#1a2a2a;line-height:1.6}
+header{background:#0f3d2e;color:white;padding:18px;border-bottom:3px solid #e6a23c}
+.logo{font-size:24px;font-weight:900;text-transform:uppercase;letter-spacing:1px;text-shadow:1px 1px 2px black}
+.logo span{color:#e6a23c}
+nav a{color:white;text-decoration:none;margin-right:14px;font-weight:700;font-size:13px;text-transform:uppercase}
+.hero{background:#12372a;color:white;padding:40px 20px;text-align:center}
+.hero h1{font-size:36px;font-weight:900;text-transform:uppercase}
+.btn{display:inline-block;padding:11px 22px;background:#e6a23c;color:#1a2a2a;text-decoration:none;border-radius:6px;font-weight:800;transition:0.3s;border:1px solid #e6a23c}
+.btn:hover{background:white;transform:scale(1.05)}
+.container{padding:20px}
+.card{background:white;border:1px solid #ddd;border-radius:10px;padding:16px;margin-bottom:16px;transition:0.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 16px rgba(0,0,0,.1);border-color:#e6a23c}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #ddd;padding:10px;text-align:left}
+th{background:#0f3d2e;color:white;text-transform:uppercase}
+form{background:white;padding:18px;border-radius:10px;border:1px solid #ddd}
+input,select,textarea{width:100%;padding:9px;margin:6px 0;border-radius:5px;border:1px solid gray}
+.badge{background:#fff3d6;color:#a66a00;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800}
+footer{background:#0f3d2e;color:white;padding:18px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Incredible <span>India.</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#monuments">Monuments</a>
+<a href="#festivals">Festivals</a>
+<a href="#food">Cuisine</a>
+<a href="#gallery">Gallery</a>
+<a href="#book">Book Trip</a>
+</nav>
+</header>
+<main>
+<section class="hero" id="home">
+<h1>Explore <span style="color:#e6a23c">India</span> With Us</h1>
+<p>Historical monuments, festivals, destinations, cuisine and travel tips - By Region</p><br>
+<a href="#book" class="btn">Plan My Trip</a>
+</section>
+
+<section class="container" id="monuments">
+<h2>HISTORICAL MONUMENTS - BY REGION</h2>
+<div class="card">
+<span class="badge">NORTH</span>
+<h3>🏛️ Taj Mahal - Agra</h3>
+<p><b>Wonder of World</b> built by <em>Shah Jahan</em>. <mark>UNESCO Site</mark> - Symbol of love.</p>
+<p>H<sub>2</sub>O reflection in Yamuna - Best time: <b>Sunrise</b></p>
+</div>
+<div class="card">
+<span class="badge">SOUTH</span>
+<h3>🛕 Hampi - Karnataka</h3>
+<p>Vijayanagara Empire ruins. <del>Old</del> <ins>Ancient 14th Century</ins> temples.</p>
+</div>
+<div class="card">
+<span class="badge">WEST</span>
+<h3>🏰 Amer Fort - Jaipur</h3>
+<p>Rajasthan royal fort with <small>mirror palace</small> and history.</p>
+</div>
+</section>
+<hr>
+
+<section class="container" id="festivals">
+<h2>CULTURAL FESTIVALS - BY TYPE</h2>
+<table>
+<tr><th>Region</th><th>Festival</th><th>Attraction Type</th></tr>
+<tr><td><b>North</b></td><td>Diwali - Varanasi Ghats</td><td>Religious</td></tr>
+<tr><td><b>West</b></td><td>Rann Utsav - Gujarat</td><td>Cultural</td></tr>
+<tr><td><b>South</b></td><td>Pongal - Tamil Nadu</td><td>Harvest</td></tr>
+<tr><td colspan="3" style="text-align:center;"><b>East - Durga Puja - Kolkata - UNESCO Heritage</b></td></tr>
+</table>
+<br>
+<dl>
+<dt><b>Holi</b></dt><dd>Color festival - Mathura, Vrindavan famous</dd>
+<dt><b>Onam</b></dt><dd>Kerala boat race and cultural feast</dd>
+</dl>
+</section>
+
+<section class="container" id="food">
+<h2>LOCAL CUISINE - BY REGION</h2>
+<ul>
+<li><b>North:</b> Chole Bhature, Butter Naan</li>
+<li><b>South:</b> Dosa, Hyderabadi Biryani</li>
+<li><b>West:</b> Dhokla, Vada Pav</li>
+<li><b>East:</b> Rasgulla, Momos</li>
+</ul>
+<ol type="1">
+<li>Try street food with hygiene check</li>
+<li>Drink only bottled water</li>
+</ol>
+</section>
+
+<section class="container" id="gallery">
+<h2>IMAGE GALLERY & TRAVEL TIPS</h2>
+<div class="card">
+<h3>📸 Gallery - Famous Destinations</h3>
+<p>Goa Beach | Kerala Backwaters | Ladakh Mountains | Andaman Islands</p>
+<p><b>Travel Tips:</b> Carry ID proof, book in advance, respect culture.</p>
+<p><mark>Best Season: October to March</mark></p>
+</div>
+</section>
+
+<section class="container" id="book">
+<h2>BOOK YOUR TRIP</h2>
+<form>
+<fieldset>
+<legend>Travel Details</legend>
+<label>Name:</label><input type="text" placeholder="Full name" required>
+<label>Email:</label><input type="email" placeholder="you@mail.com" required>
+<label>Phone:</label><input type="tel" pattern="[0-9]{10}" placeholder="10-digit" required>
+<label>Region:</label>
+<select><option>North India</option><option>South India</option><option>West India</option><option>East India</option>
+<optgroup label="Special"><option>Himalayan</option><option>Coastal</option></optgroup></select>
+<label>Attraction Type:</label><input list="types" placeholder="Select type"><datalist id="types"><option value="Historical"><option value="Cultural"><option value="Nature"><option value="Cuisine Tour"></datalist>
+<label>Travel Date:</label><input type="date" required>
+<label>Members:</label><input type="number" min="1" max="20" placeholder="Members">
+<label>Budget Range:</label><input type="range">
+<label>Address:</label><textarea rows="2"></textarea>
+<br>
+<input type="checkbox" style="width:auto;"> Need Guide 
+<input type="radio" name="trip" style="width:auto;"> Solo
+<input type="radio" name="trip" style="width:auto;"> Family
+<br><br>
+<button type="submit" class="btn">Confirm Booking</button>
+<button type="reset" class="btn" style="background:gray">Reset</button>
+</fieldset>
+</form>
+</section>
+</main>
+<footer>
+<p><b>Incredible India.</b> - Monuments | Festivals | Food | Gallery</p>
+<p>© 2026 Tourism Project</p>
+</footer>
+</body>
+</html>

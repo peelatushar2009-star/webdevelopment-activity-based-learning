@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitFlex | Gym & Fitness Center</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family: Arial, sans-serif;
+background:#f5f5f5;
+color:#172c35;
+line-height:1.6;
+}
+header{
+background:#111;
+color:white;
+padding:20px;
+border-bottom:3px solid #e63946;
+}
+.logo{
+font-size:28px;
+font-weight:900;
+letter-spacing:1px;
+text-transform:uppercase;
+text-shadow:1px 1px 2px #e63946;
+}
+.logo span{
+color:#e63946;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-right:18px;
+font-weight:bold;
+text-transform:uppercase;
+font-size:13px;
+}
+nav a:hover{
+color:#e63946;
+}
+.hero{
+background:#1a1a1a;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+.hero h1{
+font-size:45px;
+font-weight:900;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+.hero h1 span{
+color:#e63946;
+}
+.hero p{
+font-size:18px;
+color:#ccc;
+}
+.btn{
+display:inline-block;
+padding:13px 25px;
+background:#e63946;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:800;
+text-transform:uppercase;
+border:1px solid #e63946;
+transition:0.3s;
+}
+.btn:hover{
+background:white;
+color:#e63946;
+transform:scale(1.05);
+}
+.container{
+padding:25px;
+}
+.trip-card{
+background:white;
+border:1px solid #ddd;
+border-radius:12px;
+padding:20px;
+margin-bottom:20px;
+transition:0.3s;
+}
+.trip-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+border-color:#e63946;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+th,td{
+border:1px solid #ddd;
+padding:14px;
+text-align:left;
+}
+th{
+background:#111;
+color:white;
+text-transform:uppercase;
+}
+form{
+background:white;
+padding:22px;
+border-radius:12px;
+border:1px solid #ddd;
+}
+input, select, textarea{
+width:100%;
+padding:11px;
+margin:8px 0px;
+border-radius:6px;
+border:1px solid gray;
+}
+hr{
+border:1px solid #ddd;
+margin:25px 0px;
+}
+footer{
+background:#111;
+color:white;
+padding:25px;
+text-align:center;
+}
+.badge{
+display:inline-block;
+background:#ffe5e5;
+color:#e63946;
+padding:5px 12px;
+border-radius:20px;
+font-size:12px;
+font-weight:800;
+text-transform:uppercase;
+}
+.price{
+font-size:32px;
+font-weight:900;
+color:#111;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Fit<span>Flex.</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#programs">Programs</a>
+<a href="#trainers">Trainers</a>
+<a href="#plans">Membership</a>
+<a href="#facilities">Facilities</a>
+<a href="#schedule">Schedule</a>
+<a href="#register">Join Now</a>
+</nav>
+</header>
+<main>
+<section class="hero" id="home">
+<h1>Build Your <span>Body Strong</span></h1>
+<p>Workout programs, expert trainers, modern facilities - Start your transformation today.</p>
+<br>
+<a href="#register" class="btn">Join Now - Free Trial</a>
+</section>
+
+<section class="container" id="programs">
+<h2>WORKOUT PROGRAMS</h2>
+<p>Choose your fitness goal and start training.</p>
+<br>
+<div class="trip-card">
+<span class="badge">🔥 Most Popular</span>
+<h3>💪 Muscle Building</h3>
+<p>Heavy lifting and strength training for <b>bulk gain</b> and muscle mass. <mark>4 weeks program</mark></p>
+<p><b>Includes:</b> Chest, Back, Legs, Arms</p>
+<p>★ 4.9 / 5 - 1200 Members</p>
+</div>
+<div class="trip-card">
+<span class="badge">⚡ Fat Loss</span>
+<h3>🏃 Cardio & HIIT</h3>
+<p>High Intensity Interval Training for <i>fat burn</i> and stamina. <del>Hard</del> <ins>Effective</ins></p>
+<p><b>Includes:</b> Treadmill, Cycling, Burpees</p>
+<p>★ 4.8 / 5</p>
+</div>
+<div class="trip-card">
+<span class="badge">🧘 Wellness</span>
+<h3>🧘 Yoga & Flexibility</h3>
+<p>Improve flexibility and <em>mental peace</em> with yoga. H<sub>2</sub>O balance and meditation.</p>
+<p>★ 4.7 / 5</p>
+</div>
+<ul>
+<li>Personal Training Available</li>
+<li>Diet Plan Included</li>
+<li>Weekly Progress Tracking</li>
+</ul>
+</section>
+<hr>
+
+<section class="container" id="trainers">
+<h2>OUR EXPERT TRAINERS</h2>
+<table>
+<tr>
+<th>Name</th>
+<th>Speciality</th>
+<th>Experience</th>
+</tr>
+<tr>
+<td><b>Rahul Varma</b></td>
+<td>Bodybuilding</td>
+<td>8 Years</td>
+</tr>
+<tr>
+<td><b>Priya Singh</b></td>
+<td>Yoga & Zumba</td>
+<td>5 Years</td>
+</tr>
+<tr>
+<td><b>Arjun Reddy</b></td>
+<td>CrossFit & HIIT</td>
+<td>6 Years</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:center;"><small>All trainers are certified - International Fitness Association</small></td>
+</tr>
+</table>
+</section>
+
+<section class="container" id="facilities">
+<h2>FITNESS FACILITIES</h2>
+<dl>
+<dt><b>🏋️ Modern Equipment</b></dt>
+<dd>Latest imported machines for all muscle groups - Bench press, Leg press, Lat pulldown</dd>
+<dt><b>🚿 Changing & Locker</b></dt>
+<dd>Secure lockers, hot shower and changing rooms for members</dd>
+<dt><b>🥤 Protein Bar</b></dt>
+<dd>Healthy protein shakes, energy drinks inside gym premises</dd>
+</dl>
+<p><b>Gym Timings:</b> <mark>5:00 AM to 10:00 PM</mark> - Open all days</p>
+</section>
+<hr>
+
+<section class="container" id="plans">
+<h2>MEMBERSHIP PLANS</h2>
+<p>Responsive pricing table - Choose your plan.</p>
+<br>
+<table>
+<tr>
+<th>Plan</th>
+<th>Duration</th>
+<th>Price</th>
+<th>Facilities</th>
+</tr>
+<tr>
+<td><b>BASIC</b></td>
+<td>1 Month</td>
+<td><span class="price">₹999</span> <br><del>₹1499</del> <br><small style="color:green;"><b>33% OFF</b></small></td>
+<td>
+<ul>
+<li>Gym Access</li>
+<li>Cardio</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><b style="color:#e63946;">PRO - POPULAR</b></td>
+<td>3 Months</td>
+<td><span class="price">₹2499</span> <br><del>₹4500</del> <br><small style="color:green;"><b>44% OFF</b></small></td>
+<td>
+<ul>
+<li>All Basic +</li>
+<li>Personal Trainer</li>
+<li>Diet Plan</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><b>ELITE</b></td>
+<td>12 Months</td>
+<td><span class="price">₹6999</span> <br><del>₹12000</del> <br><small style="color:green;"><b>41% OFF</b></small></td>
+<td>
+<ul>
+<li>All Pro +</li>
+<li>Yoga & Zumba</li>
+<li>Protein Bar Free</li>
+</ul>
+</td>
+</tr>
+</table>
+<br>
+<p style="text-align:center;"><a href="#register" class="btn">Select Plan</a></p>
+</section>
+<hr>
+
+<section class="container" id="schedule">
+<h2>CLASS SCHEDULE</h2>
+<table>
+<tr>
+<th>Day</th>
+<th>6-8 AM</th>
+<th>8-10 AM</th>
+<th>5-8 PM</th>
+</tr>
+<tr>
+<td><b>Monday</b></td>
+<td>Chest</td>
+<td>Yoga</td>
+<td rowspan="2" style="background:#ffe5e5; text-align:center;"><b>CrossFit Batch</b></td>
+</tr>
+<tr>
+<td><b>Tuesday</b></td>
+<td>Back</td>
+<td>Cardio</td>
+</tr>
+<tr>
+<td><b>Wednesday</b></td>
+<td>Legs</td>
+<td>Zumba</td>
+<td>HIIT</td>
+</tr>
+<tr>
+<td><b>Thursday</b></td>
+<td>Arms</td>
+<td>Yoga</td>
+<td>CrossFit</td>
+</tr>
+</table>
+</section>
+<hr>
+
+<section class="container" id="register">
+<h2>REGISTRATION FORM - JOIN FITFLEX</h2>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label>Full Name:</label>
+<input type="text" placeholder="Enter full name" required>
+
+<label>Email:</label>
+<input type="email" placeholder="you@example.com" required>
+
+<label>Mobile Number:</label>
+<input type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="10-digit number" required>
+
+<label>Age:</label>
+<input type="number" min="12" max="70" placeholder="Your age" required>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" style="width:auto;"> Male
+<input type="radio" name="gender" style="width:auto;"> Female
+<input type="radio" name="gender" style="width:auto;"> Other
+<br><br>
+
+<label>Select Program:</label>
+<select>
+<option>Muscle Building</option>
+<option>Fat Loss - Cardio & HIIT</option>
+<option>Yoga & Flexibility</option>
+<optgroup label="Advanced">
+<option>CrossFit</option>
+<option>Personal Training</option>
+</optgroup>
+</select>
+
+<label>Select Membership Plan:</label>
+<input list="plansList" placeholder="Choose plan" required>
+<datalist id="plansList">
+<option value="Basic - ₹999">
+<option value="Pro - ₹2499 - Popular">
+<option value="Elite - ₹6999">
+</datalist>
+
+<label>Preferred Timing:</label>
+<input type="time" required>
+
+<label>Joining Date:</label>
+<input type="date" required>
+
+<label>Upload ID Proof:</label>
+<input type="file">
+
+<label>Search Nearest Branch:</label>
+<input type="search" placeholder="Visakhapatnam, Vijayawada...">
+
+<label>Your Fitness Level (1-10):</label>
+<input type="range" min="1" max="10">
+
+<label>Address:</label>
+<textarea rows="3" placeholder="Enter your address"></textarea>
+
+<p>Food Preference:</p>
+<input type="checkbox" style="width:auto;"> Veg
+<input type="checkbox" style="width:auto;"> Non-Veg
+<input type="checkbox" style="width:auto;"> Need Diet Plan
+
+<br><br>
+<button type="submit" class="btn">Confirm Registration</button>
+<button type="reset" class="btn" style="background:gray; border-color:gray;">Reset</button>
+</fieldset>
+</form>
+</section>
+
+<section class="container">
+<h3>Gym Terms:</h3>
+<dl>
+<dt><b>BMI</b></dt>
+<dd>Body Mass Index - Height and weight ratio</dd>
+<dt><b>HIIT</b></dt>
+<dd>High Intensity Interval Training</dd>
+</dl>
+</section>
+</main>
+<footer>
+<p><b>FitFlex.</b> - Build Your Body Strong</p>
+<p>Programs | Trainers | Membership | Facilities | Schedule</p>
+<br>
+<p>© 2026 FitFlex Gym - Student Web Development Project</p>
+</footer>
+</body>
+</html>

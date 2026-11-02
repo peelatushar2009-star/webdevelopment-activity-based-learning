@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameX | Esports Portal</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0b0e14;color:#e5e7eb;line-height:1.6}
+header{background:#11141d;padding:18px;border-bottom:2px solid #7c3aed}
+.logo{font-size:26px;font-weight:900;text-transform:uppercase;letter-spacing:1px;text-shadow:0 0 8px #7c3aed}
+.logo span{color:#7c3aed}
+nav a{color:#cbd5e1;text-decoration:none;margin-right:15px;font-weight:700;font-size:13px;text-transform:uppercase;transition:0.3s}
+nav a:hover{color:#7c3aed;text-shadow:0 0 6px #7c3aed}
+.hero{background:linear-gradient(100deg,#11141d,#1e1b4b);color:white;padding:45px 20px;text-align:center}
+.hero h1{font-size:38px;font-weight:900;text-transform:uppercase;letter-spacing:2px}
+.hero h1 span{color:#7c3aed}
+.btn{display:inline-block;padding:12px 24px;background:#7c3aed;color:white;text-decoration:none;border-radius:6px;font-weight:800;text-transform:uppercase;border:1px solid #7c3aed;transition:0.3s}
+.btn:hover{background:white;color:#7c3aed;transform:scale(1.05);box-shadow:0 0 15px #7c3aed}
+.container{padding:22px}
+.card{background:#151a27;border:1px solid #232a3d;border-radius:12px;padding:18px;margin-bottom:16px;transition:0.3s}
+.card:hover{transform:translateY(-5px);border-color:#7c3aed;box-shadow:0 0 18px rgba(124,58,237,.25)}
+.badge{display:inline-block;background:#1e1b4b;color:#a78bfa;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #232a3d;padding:12px;text-align:left}
+th{background:#1a1f32;color:#a78bfa;text-transform:uppercase;font-size:12px;letter-spacing:1px}
+tr:hover{background:#1a1f32}
+form{background:#151a27;padding:18px;border-radius:12px;border:1px solid #232a3d}
+input,select,textarea{width:100%;padding:10px;margin:6px 0;border-radius:6px;border:1px solid #2a334d;background:#0f1320;color:white}
+footer{background:#11141d;color:#94a3b8;padding:18px;text-align:center;border-top:1px solid #232a3d}
+.price{font-size:28px;font-weight:900;color:#a78bfa}
+hr{border:1px solid #232a3d;margin:20px 0}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Game<span>X.</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#games">Games</a>
+<a href="#tournaments">Tournaments</a>
+<a href="#teams">Teams</a>
+<a href="#leaderboard">Leaderboard</a>
+<a href="#news">News</a>
+<a href="#join">Join</a>
+</nav>
+</header>
+<main>
+<section class="hero" id="home">
+<h1>Level Up Your <span>Game</span></h1>
+<p>Game profiles, esports schedules, teams, players, leaderboards and news.</p><br>
+<a href="#join" class="btn">Join Tournament</a>
+</section>
+
+<section class="container" id="games">
+<h2>GAME PROFILES</h2>
+<div class="card">
+<span class="badge">🔥 TRENDING</span>
+<h3>🎮 Valorant - FPS Tactical</h3>
+<p><b>Riot Games</b> - 5v5 shooter. <mark style="background:#7c3aed;color:white;padding:2px 6px;border-radius:4px;">12M Players</mark></p>
+<p>Rank: <b>Radiant</b> > Immortal > Diamond. Agent: Jett - H<sub>2</sub>O smoke trick.</p>
+<p>★ 4.9 / 5</p>
+</div>
+<div class="card">
+<span class="badge">MOBA</span>
+<h3>🎯 BGMI & Free Fire</h3>
+<p>Battle Royale - <i>100 players</i> fight. <del>Hard</del> <ins>Skill Based</ins>. Last zone wins.</p>
+<p><small>India's Top Esports Games</small></p>
+</div>
+</section>
+<hr>
+
+<section class="container" id="tournaments">
+<h2>ESPORTS TOURNAMENT SCHEDULES</h2>
+<table>
+<tr><th>Tournament</th><th>Game</th><th>Date</th><th>Prize Pool</th></tr>
+<tr><td><b>Skyesports Championship</b></td><td>Valorant</td><td>15 Nov 2026</td><td>₹25 Lakhs</td></tr>
+<tr><td><b>BGIS 2026</b></td><td>BGMI</td><td>02 Dec 2026</td><td>₹50 Lakhs</td></tr>
+<tr><td><b>Free Fire Pro League</b></td><td>Free Fire</td><td>10 Dec 2026</td><td>₹30 Lakhs</td></tr>
+<tr><td colspan="4" style="text-align:center;"><b>Live on YouTube Gaming & Loco - 6 PM IST</b></td></tr>
+</table>
+</section>
+
+<section class="container" id="teams">
+<h2>TEAM INFORMATION & PLAYER PROFILES</h2>
+<div class="card">
+<h3>🏆 Team Soul - BGMI</h3>
+<p><b>Captain:</b> Mortal | <b>Players:</b> 5 | <b>Region:</b> India</p>
+<dl>
+<dt><b>Mortal (Naman Mathur)</b></dt><dd>IGL - 3x Champion - <small>1.2M followers</small></dd>
+<dt><b>ScoutOP</b></dt><dd>Assaulter - Aggressive gameplay</dd>
+</dl>
+</div>
+<div class="card">
+<h3>⚡ Team Revenant - Valorant</h3>
+<p><b>Top Team India</b> - Qualified for <em>VCT Asia</em></p>
+<ul>
+<li>Player1 - Duelist - Jett Main</li>
+<li>Player2 - Controller - Omen Main</li>
+<li>Player3 - Sentinel - Chamber Main</li>
+</ul>
+</div>
+</section>
+<hr>
+
+<section class="container" id="leaderboard">
+<h2>LEADERBOARD - STRUCTURED RANKING TABLE</h2>
+<table>
+<tr><th>Rank</th><th>Player</th><th>Team</th><th>K/D</th><th>Points</th></tr>
+<tr><td><b style="color:gold;">#1</b></td><td><b>Jonathan Gaming</b></td><td>GodLike</td><td>4.2</td><td><span class="price">2850</span></td></tr>
+<tr><td><b style="color:silver;">#2</b></td><td><b>ScoutOP</b></td><td>Soul</td><td>3.9</td><td><span class="price">2710</span></td></tr>
+<tr><td><b style="color:#cd7f32;">#3</b></td><td><b>Mortal</b></td><td>Soul</td><td>3.5</td><td><span class="price">2605</span></td></tr>
+<tr><td>#4</td><td>Goblin</td><td>Soul</td><td>3.2</td><td>2450</td></tr>
+<tr><td>#5</td><td>Snax</td><td>IND</td><td>3.0</td><td>2380</td></tr>
+</table>
+<br>
+<ol type="1" reversed>
+<li>Top 3 qualify for PMWI</li>
+<li>Points = Kills + Placement</li>
+</ol>
+</section>
+
+<section class="container" id="news">
+<h2>GAMING NEWS</h2>
+<div class="card">
+<h3>📰 BGMI Unban Update - New 90 FPS Feature</h3>
+<p>Krafton announced <mark style="background:#7c3aed;color:white;">90 FPS support</mark> for all devices. Esports scene will be bigger in 2026.</p>
+<p><small>Published: 2 days ago | Source: Sportskeeda</small></p>
+</div>
+<div class="card">
+<h3>📰 Valorant Champions 2026 - India Qualifies</h3>
+<p>Indian team creates history - First time in <b>VCT Masters</b>.</p>
+</div>
+</section>
+
+<section class="container" id="join">
+<h2>JOIN ESPORTS - REGISTRATION FORM</h2>
+<form>
+<fieldset>
+<legend>Gamer Registration</legend>
+<label>Gamer Tag:</label><input type="text" placeholder="e.g., SoulMortal" required>
+<label>Email:</label><input type="email" placeholder="you@mail.com" required>
+<label>Password:</label><input type="password" placeholder="Create password" required>
+<label>Mobile:</label><input type="tel" pattern="[0-9]{10}" placeholder="10-digit" required>
+<label>Age:</label><input type="number" min="12" max="40" placeholder="Age" required>
+<label>Select Game:</label>
+<select><option>Valorant</option><option>BGMI</option><option>Free Fire</option>
+<optgroup label="PC Games"><option>CS2</option><option>Dota 2</option></optgroup></select>
+<label>Team Name:</label><input list="teams" placeholder="Select or create team"><datalist id="teams"><option value="Team Soul"><option value="GodLike"><option value="Revenant"><option value="Solo - No Team"></datalist>
+<label>Role:</label><br>
+<input type="radio" name="role" style="width:auto;"> IGL
+<input type="radio" name="role" style="width:auto;"> Assaulter
+<input type="radio" name="role" style="width:auto;"> Support
+<br><br>
+<label>Rank Proof Screenshot:</label><input type="file">
+<label>Search Tournament:</label><input type="search" placeholder="BGIS, Skyesports...">
+<label>Practice Time:</label><input type="time">
+<label>Skill Level:</label><input type="range" min="1" max="10">
+<label>Why you should be selected?</label><textarea rows="2" placeholder="Your achievements"></textarea>
+<input type="checkbox" style="width:auto;"> I accept esports rules
+<br><br>
+<button type="submit" class="btn">Register Now</button>
+<button type="reset" class="btn" style="background:gray;border-color:gray">Reset</button>
+</fieldset>
+</form>
+</section>
+</main>
+<footer>
+<p><b>GameX.</b> - Game Profiles | Tournaments | Teams | Leaderboard | News</p>
+<p>© 2026 GameX Esports - Student Project</p>
+</footer>
+</body>
+</html>
